@@ -22,3 +22,5 @@ public class runner {
   int average = (m1 + m2 + m3) / 3;
   system.out.println(name);
   system.out.println(average);
+//Java will print average marks of all the three kids
+//enjoy the code
