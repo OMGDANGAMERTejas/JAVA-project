@@ -1,7 +1,7 @@
 import java.util.Scanner;
 //this will add scanner to a code which will now scan all the input now
 
-public class runner {
+public class average_marks {
 	public static void main(String[] args) {
   
   Scanner s = new Scanner(system.in);
