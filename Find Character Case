@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class find_Character_Case {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		String str=scan.next();
+    /*A Java string is a sequence of characters that exist as an object of the class java.
+    lang. Java strings are created and manipulated through the string class.*/
+		char c=str.charAt(0);
+    //here small twist we are using the if or else statement now you should understand the code 
+		if(c>='A' && c<='Z') {
+			System.out.println(1);
+		}else if(c>='a' && c<='z') {
+			System.out.println(0);
+		}else {
+			System.out.println(-1);
+		}
+	}
+}
