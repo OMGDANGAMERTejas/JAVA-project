@@ -1,0 +1,24 @@
+import java.util.Scanner;
+//this will add scanner to a code which will now scan all the input now
+
+public class runner {
+	public static void main(String[] args) {
+  
+  Scanner s = new Scanner(system.in);
+  //where writing a program we are going to be given marks of three kids and we need to find the average marks of all the three kids
+  char name = s.next().charAt(0);
+  /*The char data type in Java. A char is a single character, 
+  that is a letter, a digit, a punctuation mark, a tab, a space or something similar. 
+  A char literal is a single one character enclosed in single quote marks like this. char myCharacter = 'g'; 
+  Some characters are hard to type.*/
+  int m1,m2,m3;
+  //you know what is the formula of average marks right
+  m1 = s.nextint();
+  m2 = s.nextint();
+  m3 = s.nextint();
+  /*In general, you calculate the mean or average of a set of numbers by adding them all up and dividing by how many numbers you have.
+  This can be defined as follows: For a set of numbers, {x1, x2, x3, ... xj} the mean or average is the sum of all "x" divided by 
+  "j".*/
+  int average = (m1 + m2 + m3) / 3;
+  system.out.println(name);
+  system.out.println(average);
