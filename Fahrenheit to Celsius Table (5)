@@ -25,3 +25,6 @@ public class Fahrenheit_to_Celsius_Table {
         printFahrenheitTable( start,end,step);
     }
 }
+//Java will print water Celsius or Fahrenheit
+//enjoy the code.
+
