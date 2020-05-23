@@ -2,7 +2,14 @@ import java.util.Scanner;
 public class Fahrenheit_to_Celsius_Table {
 
 	public static void printFahrenheitTable(int start, int end, int step) {
-  //over here we are going to make Fahrenheit into Celsius
+  /*over here we are going to make Fahrenheit into Celsius
+  you must have public static void main but it can be something else also it could be public static blah blah blah 
+  or it could be your name public static void "your name"
+  this is generally used when you write big codes let's say for a bank or something
+  then you would need so many void main so then you can write public static void let say simple interest
+  now let's say you have a bug in the simple interest code that you have written
+  it will become easy for you to find out*/
+  
         int i = 1;
         for(i = start; i <= end ; i = i+step){
             int cel = ((i-32)* 5)/9;
