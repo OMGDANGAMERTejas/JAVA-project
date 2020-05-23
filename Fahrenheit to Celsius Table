@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Solution {
+
+	public static void printFahrenheitTable(int start, int end, int step) {
+  //over here we are going to make Celsius into Fahrenheit
+        int i = 1;
+        for(i = start; i <= end ; i = i+step){
+            int cel = ((i-32)* 5)/9;
+            System.out.println(i+"\t"+cel);
+        }
+    }
+		
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int start = s.nextInt();
+        int end = s.nextInt();
+        int step = s.nextInt();
+        printFahrenheitTable( start,end,step);
+    }
+}
