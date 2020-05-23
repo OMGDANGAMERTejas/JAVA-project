@@ -20,5 +20,5 @@ public class find_Character_Case {
 		}
 	}
 }
-//Java will print hello world.
+//Java print 1 if it is a capital letter and zero if it is a not a capital letter and -1 if it is not a letter at all
 //enjoy the code.
