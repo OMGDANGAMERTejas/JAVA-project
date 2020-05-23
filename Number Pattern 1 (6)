@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Solution {
+
+/*don't get confused of your just trying to create a pattern with numbers example 
+Pattern for N = 4
+1
+23
+345
+4567*/
+
+    public static void main(String[] args) {
+        Scanner scan= new Scanner(System.in);
+        int n =scan.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+            int k=i;
+            for (int j=1;j<=i;j++)
+            {
+                System.out.print(k);   
+                k++;
+            }   
+            System.out.println();
+        }
+    }
+}
