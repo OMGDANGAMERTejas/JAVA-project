@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class Solution {
+public class Fahrenheit_to_Celsius_Table {
 
 	public static void printFahrenheitTable(int start, int end, int step) {
-  //over here we are going to make Celsius into Fahrenheit
+  //over here we are going to make Fahrenheit into Celsius
         int i = 1;
         for(i = start; i <= end ; i = i+step){
             int cel = ((i-32)* 5)/9;
