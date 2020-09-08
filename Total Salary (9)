@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int basic=s.nextInt();
+		char grd=s.next().charAt(0);
+		float hra=(float)(20*basic)/100;
+		float da=(float)(50*basic)/100;
+		float pf=(float)(11*basic)/100;
+		int allow;
+		float total;
+		if(grd=='A') {
+			allow=1700;
+
+		}else if(grd=='B') {
+			allow=1500;
+		}else {
+			allow=1300;
+		}
+		total=basic+hra+da+allow-pf;
+		int totalsal=Math.round(total);
+		System.out.println(totalsal);
+
+	}
+
+}
